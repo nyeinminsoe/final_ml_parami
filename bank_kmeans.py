@@ -18,7 +18,7 @@ model = joblib.load('bank_kmeans.pkl')
 
 
 col_to_drop = ['y', 'default']
-df = pd.read_csv("bank.csv", sep=";").drop(columns=col_to_drop)
+df = pd.read_csv("bank.csv", sep=";").drop(columns=col_to_drop, axis=1)
 
 
 labels = model.named_steps['kmeans'].labels_
