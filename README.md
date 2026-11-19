@@ -2,7 +2,7 @@
 
 An end-to-end unsupervised machine learning project that segments Portuguese bank marketing customers using **K-Means Clustering** with **Principal Component Analysis (PCA)**, deployed as an interactive **Streamlit** web application.
 
-* **Live Demo:** [Streamlit App]([https://nms25kmeansclfapp.streamlit.app/]))
+* **Live Demo:** [Streamlit App](https://nms25kmeansclfapp.streamlit.app/)
 * **Course:** Introduction to Machine Learning — Parami University
 * **Author:** Nyein Min Soe
 
