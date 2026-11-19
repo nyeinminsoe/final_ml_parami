@@ -73,7 +73,7 @@ with col1:
 with col2:
     st.subheader("Numeric")
     # Show numerical averages for the selected cluster
-    cluster_avgs = df_clustered[df_clustered['cluster'] == selected_cluster].select_dtypes(include='int').drop(columns='cluster', axis=1).mean().T.to_frame()
+    cluster_avgs = df_clustered[df_clustered['cluster'] == selected_cluster].select_dtypes(include='int').drop(columns='cluster').mean().T.to_frame()
     cluster_avgs.columns = ['Mean Value']
     st.table(cluster_avgs)
 
