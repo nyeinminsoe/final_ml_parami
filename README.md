@@ -76,8 +76,8 @@ Numeric Cols ──────► Passthrough ────┘
 ### Installation & Running
 1. **Clone the repository:**
    ```bash
-   git clone <your-repository-url>
-   cd <your-repository-folder>
+   git clone https://github.com/nyeinminsoe/final_ml_parami.git
+   cd final_ml_parami
    ```
 
 2. **Install dependencies:**
@@ -87,7 +87,7 @@ Numeric Cols ──────► Passthrough ────┘
 
 3. **Run the Streamlit app:**
    ```bash
-   streamlit run bank_kmeans_2.py
+   streamlit run bank_kmeans.py
    ```
    Open `http://localhost:8501` in your browser, or use the [live Streamlit deployment](https://finalmlparami-48zjd4w8wuf4i8vn7z9pl2.streamlit.app/).
 
